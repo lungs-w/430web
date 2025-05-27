@@ -13,11 +13,11 @@ body {
     padding: 20px;
     border-radius: 10px;
   }
-  
   .logo {
-    width: 100px;      /* 缩小宽度 */
-    height: auto;      /* 高度自动 */
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    max-width: 80px;  /* 可调整大小 */
+    height: auto;
   }
   
   input {
