@@ -16,8 +16,8 @@ body {
   .logo {
     display: block;
     margin: 0 auto;
-    max-width: 220px;  /* 可调整大小 */
-    height: auto;
+    width: 300px;    /* 强制设置宽度 */
+    height: auto;    /* 高度自动适应，保持比例 */
   }
   
   input {
