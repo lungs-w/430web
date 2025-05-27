@@ -16,7 +16,7 @@ body {
   .logo {
     display: block;
     margin: 0 auto;
-    max-width: 80px;  /* 可调整大小 */
+    max-width: 120px;  /* 可调整大小 */
     height: auto;
   }
   
