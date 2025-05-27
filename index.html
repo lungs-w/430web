@@ -2,16 +2,33 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>4:30A.M. 肺页</title>
+  <img src="logo.png">
+  <title>4:30 A.M. 肺页 - 问答验证</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="center">
-    <h1>请确认你已年满十八周岁</h1>
-    <button onclick="enterSite()">我已年满18岁</button>
+    <h1>验证问答</h1>
+    <div>
+      <p>1. 赵延制出生的年份是？（4位数字）</p>
+      <input type="text" id="q1" placeholder="请输入答案">
+    </div>
+
+    <div>
+      <p>2. “黄毛”的真名是什么？（6位字母，首字母大写）</p>
+      <input type="text" id="q2" placeholder="请输入答案">
+    </div>
+
+    <div>
+      <p>3. Sharp·Ankers的身高是？（3位数字，单位厘米）</p>
+      <input type="text" id="q3" placeholder="请输入答案">
+    </div>
+
+    <button onclick="checkAnswers()">提交验证</button>
+    <p id="result" style="color:red;"></p>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
